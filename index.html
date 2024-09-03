@@ -1,26 +1,220 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>university website</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css"
+    />
+  </head>
+  <body>
     <section class="header">
+      <nav>
+        <a href="index.html"> <img src="image/logo.png" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href=""></a>HOME</li>
+            <li><a href=""></a>ABOUT</li>
+            <li><a href=""></a>COURSE</li>
+            <li><a href=""></a>BLOG</li>
+            <li><a href=""></a>CONTACT</li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <div class="text-box">
+        <h1>Worlds Biggest University</h1>
+        <p>
+          Welcome to the biggest university in the world,with top notch
+          technology and <br />research labs,Ai assisted curricculum.Taking
+          education to the next level.
+        </p>
+        <a href="" class="hero-btn">Visit Us to Know More</a>
+      </div>
+    </section>
 
+    <section class="course">
+      <h1>Courses We Offer</h1>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus,
+        voluptatibus.
+      </p>
+      <div class="row">
+        <div class="course-col">
+          <h3>Intermediate</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem ea
+            eaque, odit qui architect o similique ipsam alias autem voluptatum!
+            Exercitationem.
+          </p>
+        </div>
+        <div class="course-col">
+          <h3>Degree</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem ea
+            eaque, odit qui architect o similique ipsam alias autem voluptatum!
+            Exercitationem.
+          </p>
+        </div>
+        <div class="course-col">
+          <h3>Post Graduate</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem ea
+            eaque, odit qui architect o similique ipsam alias autem voluptatum!
+            Exercitationem.
+          </p>
+        </div>
+      </div>
+    </section>
 
+    <!-- campus -->
+    <section class="campus">
+      <h1>Our Global Campus</h1>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere, est.
+      </p>
+      <div class="row">
+        <div class="campus-col">
+          <img src="/image/nigeria.jpg" alt="" />
+          <div class="layer">
+            <h3>LONDON</h3>
+          </div>
+        </div>
+        <div class="campus-col">
+          <img src="/image/nigeria.jpg" alt="" />
+          <div class="layer">
+            <h3>New York</h3>
+          </div>
+        </div>
+        <div class="campus-col">
+          <img src="/image/nigeria.jpg" alt="" />
+          <div class="layer">
+            <h3>Nigeria</h3>
+          </div>
+        </div>
+      </div>
+    </section>
 
-        
+    <!-- facilities -->
+    <section class="facilities">
+      <h1>Our Facilities</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+      <div class="row">
+        <div class="facilities-col">
+          <img src="/image/background.jpg" alt="" />
+          <h3>World Class Library</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing e lit. Modi
+            maiores excepturi consequatur sunt aliquid ipsum.
+          </p>
+        </div>
+        <div class="facilities-col">
+          <img src="/image/background.jpg" alt="" />
+          <h3>Largest Play Ground</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing e lit. Modi
+            maiores excepturi consequatur sunt aliquid ipsum.
+          </p>
+        </div>
+        <div class="facilities-col">
+          <img src="/image/background.jpg" alt="" />
+          <h3>Tasty and Healthy Foods</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing e lit. Modi
+            maiores excepturi consequatur sunt aliquid ipsum.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- testimoniaals -->
+    <section class="testimonials">
+      <h1>What Our Student Says</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat, esse?
+      </p>
+
+      <div class="row">
+        <div class="testimonials-col">
+          <img src="image/IMG_1179.PNG" alt="" />
+          <div>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti
+              velit corporis optio voluptas. Distinctio obcaecati ipsam pariatur
+              velit tempore sint.
+            </p>
+            <h3>Christine Berkley</h3>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-0"></i>
+          </div>
+        </div>
+        <div class="testimonials-col">
+          <img src="image/IMG_3160.JPG" alt="" />
+          <div>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti
+              velit corporis optio voluptas. Distinctio obcaecati ipsam pariatur
+              velit tempore sint.
+            </p>
+            <h3>David Morgan</h3>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-0"></i>
+          </div>
+        </div>
+       
+      </div>
+    </section>
+
+<!-- call to action -->
+ <section class="cta">
+ <h1>Enroll for our various online Courses <br> Anwhere From The World</h1>
+<a href=""class="hero-btn">CONTACT US</a> 
+</section>
+
+<!-- footert -->
+ <section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati pariatur labore pra
+       <br> esentium nulla? Dolorum at fugit adipisci fugiat ea odit?</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-linkedin"></i>
+        <i class="fa fa-instagram"></i>
+    </div>
+    <p>Made With <i class="fa fa-heart-o"></i>by RED</p>
     </section>
 
 
 
 
 
+    <!-- javascript for toggle menu -->
+    <script>
+      var navLinks = document.getElementById("navLinks");
 
-
-
-
-</body>
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
 </html>
